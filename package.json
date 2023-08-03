@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
     },
+    "engines": {
+      "node": ">=NODE_JS_VERSION"},
   "author": "Gurpreet Singh",
   "license": "ISC",
   "dependencies": {
