@@ -30,7 +30,7 @@ router.post('/addtask', [
             title, description, tag
         })
         const saveTask = await task.save()
-
+        console.log(saveTask)
         res.json(saveTask)
 
     } catch (error) {

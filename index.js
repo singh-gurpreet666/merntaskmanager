@@ -12,9 +12,9 @@ app.use(express.json())
 //available routes
 app.use('/api/tasks',require('./routes/Task'))
 
-if(process.env.NODE_ENV == "production"){
-    app.use(express.static("taskmanager/build"))
-}
+// if(process.env.NODE_ENV == "production"){
+//     app.use(express.static("taskmanager/build"))
+// }
 app.listen(port,()=>{
     console.log(`listning on port : ${port}`)
 })
